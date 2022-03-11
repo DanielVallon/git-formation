@@ -2,6 +2,10 @@
 
 Formation GitHub
 
+### Début de journée
+
+1. git pull
+
 ### Enregistrement du travail
 
 1. git add .
