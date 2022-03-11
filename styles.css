@@ -8,38 +8,104 @@
   --color5: #e76f51;
   --colorStd: #323232;
   --colorLight: #cacaca;
+  --colorWhite: #f2f2f2;
+
+  --textSize1: 2rem;
+  --textSize2: 1.5rem;
+  --textSize3: 1rem;
+  --textSize4: 1rem;
+  --textSize5: 1rem;
+  --textSizeStd: 1rem;
+
+  --pading0: 0px;
+  --margin0: 0px;
 }
 
 * {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 100%;
   color: var(--colorStd);
+  padding: var(--padding0);
+  margin: var(--margin0);
+  margin: 0;
+  /* border: red solid 1px; */
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: var(--textSize1);
   color: var(--color1);
+  padding: 10px;
+  margin: 10px;
+  border-color: #2a9d8f;
 }
 h2 {
-  font-size: 1rem;
+  font-size: var(--textSize2);
   color: var(--color2);
+  padding: 10px;
+  margin: 10px;
+  border-color: #2a9d8f;
 }
 h3 {
-  font-size: 0.7rem;
+  font-size: var(--textSize3);
   color: var(--color3);
+  padding: 10px;
+  margin: 10px;
+  border-color: #2a9d8f;
+}
+
+li {
+  font-size: var(--textSizeStd);
+  color: var(--colorStd);
+  padding: 0px;
+  margin: 10px 10px 10px 30px;
+  border-color: #2a9d8f;
 }
 
 .code {
   /* font-family: "Courier New", Courier, monospace; */
-  font-size: 0.8rem;
   color: var(--colorLight);
 }
 
 a {
   font-size: 0.8rem;
-  color: var(--color5);
+  color: var(--colorStd);
   text-decoration: none;
+  padding: 0px;
+  margin: 10px 10px 10px 30px;
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* //--------------------------------------------------------------------------------//  */
+/* Barre de navigation */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: var(--colorStd);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: var(--colorWhite);
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: var(--colorWhite);
+  color: var(--colorStd);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--color2);
+  color: var(--colorWhite);
 }
