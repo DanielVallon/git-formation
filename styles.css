@@ -1,0 +1,32 @@
+/* https://www.palettedecouleur.net/?utm_source=Graphiste&utm_medium=blog&utm_campaign=outils-gratuits-palette */
+
+:root {
+  --color1: #264653;
+  --color2: #2a9d8f;
+  --color3: #e9c46a;
+  --color4: #f4a261;
+  --color5: #e76f51;
+  --colorStd: #323232;
+  --colorLight: #cacaca;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--colorStd);
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: var(--color1);
+}
+h2 {
+  font-size: 1rem;
+  color: var(--color2);
+}
+
+.code {
+  /* font-family: "Courier New", Courier, monospace; */
+  font-size: 0.8rem;
+  color: var(--colorLight);
+}
