@@ -6,4 +6,4 @@ Formation GitHub
 
 1. git add .
 2. git commit -m “Description du commit”
-3. git pusch -u origin main
+3. git push -u origin main
