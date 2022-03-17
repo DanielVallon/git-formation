@@ -17,8 +17,10 @@
   --textSize5: 1rem;
   --textSizeStd: 0.8rem;
 
-  --pading0: 0px;
   --margin0: 0px;
+  --marginStd: 0px 100px 0px 100px;
+  --pading0: 0px;
+  --paddingStd: auto;
 }
 
 * {
@@ -35,34 +37,30 @@
 h1 {
   font-size: var(--textSize1);
   color: var(--color1);
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
   padding: 10px;
-  border-color: #2a9d8f;
 }
 h2 {
   font-size: var(--textSize2);
   color: var(--color2);
-  margin: 10px;
+  margin: 10px 10px 0px 50px;
   padding: 10px;
-  border-color: #2a9d8f;
 }
 h3 {
   font-size: var(--textSize3);
   color: var(--color3);
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
   padding: 10px;
-  border-color: #2a9d8f;
 }
 
 ol {
-  margin: 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 li {
   font-size: var(--textSizeStd);
   color: var(--colorStd);
-  margin: 10px 10px 10px 30px;
-  border-color: #2a9d8f;
+  margin: var(--marginStd);
 }
 
 .code {
@@ -71,11 +69,11 @@ li {
 }
 
 a {
-  font-size: 0.8rem;
-  color: var(--colorStd);
+  font-size: var(--textSizeStd);
+  color: var(--color5);
   text-decoration: none;
-  margin: 10px 10px 10px 30px;
-  padding: 0px;
+  margin: var(--marginStd);
+  padding: var(--paddingStd);
 }
 a:hover {
   text-decoration: underline;
